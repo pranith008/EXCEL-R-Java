@@ -14,8 +14,8 @@ public class DataTypeConversionDemo {
 		double d2=5.75;						//narrowing
 		int n2=(int)d2;
 		
-		System.out.println("INT "+n2);  	// INT 5
 		System.out.println("DOUBLE "+d2);   // DOUBLE 5.75
+		System.out.println("INT "+n2);  	// INT 5
 
 	}
 

@@ -1,0 +1,12 @@
+package day9.ver2;
+
+import java.util.Random;
+
+public class OtpGenerator {
+	public static int generateOTP()
+	{
+		Random random=new Random();
+		int otp=random.nextInt(99999)+100000;  
+		return otp;
+	}
+}
