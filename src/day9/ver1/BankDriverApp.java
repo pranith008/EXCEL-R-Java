@@ -30,6 +30,7 @@ public class BankDriverApp {
 				choice = sc.nextInt();
 				if (choice == 0) {
 					System.out.println("Closing App...");
+					System.out.println("Thank You Visit Again");
 					System.exit(0);
 				}
 				break;

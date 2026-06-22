@@ -3,6 +3,7 @@ package day9.ver1;
 import java.util.Random;
 
 public class OtpGenerator {
+	
 	public static int generateOTP()
 	{
 		Random random=new Random();

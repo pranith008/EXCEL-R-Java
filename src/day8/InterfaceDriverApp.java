@@ -18,6 +18,7 @@ public class InterfaceDriverApp {
 		Tiger t2=new BengalTiger();
 		BengalTiger t3=new BengalTiger();
 		
+		
 		t1.eat();
 		t1.sleep();
 		t1.run();
@@ -33,6 +34,9 @@ public class InterfaceDriverApp {
 		t3.run();
 		t3.dance();
 		
+		Shape s1=new Circle();
+		s1.area();
+		s1.perimeter();
 		
 		Shape f1=new FootballField();			//A	- most widely
 		Rectangle f2=new FootballField();		//B

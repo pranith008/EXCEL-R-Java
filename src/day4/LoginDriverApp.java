@@ -15,7 +15,7 @@ public class LoginDriverApp {
 //		
 		int x=10; //local variable : scope is within the method
 		
-		int y=1;		//local variables must be inialised before usage;
+		int y=1;		//local variables must be intialised before usage;
 		
 	}
 }

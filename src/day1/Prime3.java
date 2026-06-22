@@ -9,7 +9,7 @@ public class Prime3 {
 		System.out.println("Enter a number");
 		int n= sc.nextInt();
 	
-		System.out.println(checkPrime(n)?n + " is a Prime Number" : n + " is not a Prime Number");
+		System.out.println(checkPrime(n) ? n + " is a Prime Number" : n + " is not a Prime Number");
 
 	}
 

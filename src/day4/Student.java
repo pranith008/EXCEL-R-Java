@@ -30,7 +30,7 @@ public class Student {
 		System.out.println(stud.sname);
 		System.out.println("Student Roll Number is "+this.rno);
 		
-		System.out.println("Student Roll Name is "+this.sname);
+		System.out.println("Student Name is "+this.sname);
 		
 		System.out.println("Student Percentage is "+ this.per);
 		

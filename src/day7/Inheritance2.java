@@ -23,6 +23,9 @@ public class Inheritance2 {
 		a2=new Aradhya();			//C c=new P()  not allowed
 		a2.home();
 		a2.car();
+		
+		Aradhya a3=new Aradhya();
+		a3.office();
 
 	}
 

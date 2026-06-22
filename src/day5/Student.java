@@ -58,7 +58,7 @@ public class Student {
 	
 	public void displayStudent()	//method
 	{
-		Student stud=new Student();							//inside Akash
+//		Student stud=new Student();							//inside Akash
 //		System.out.println(stud.rno);
 //		System.out.println(stud.sname);
 		System.out.println("Student Roll Number is "+this.rno);

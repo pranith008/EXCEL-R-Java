@@ -26,8 +26,8 @@ public class Player {
 	{
 		this.jno=px.jno;
 		this.pname=px.pname;
-		mp=px.mp;
-		rs=px.rs;
+		this.mp=px.mp;
+		this.rs=px.rs;
 	}
 	public int getJno() {
 		return jno;

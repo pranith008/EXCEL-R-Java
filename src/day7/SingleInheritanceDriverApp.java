@@ -9,6 +9,8 @@ public class SingleInheritanceDriverApp {
 		
 		e1.displayPerson();
 		e1.displayEmployee();	
+		
+		 
 
 	}
 

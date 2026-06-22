@@ -9,7 +9,7 @@ public class StudentDriverApp {
 		s1.setPer(78.5);
 		s1.setOutStationCandidate(true);
 		
-		//test(s1); //call it explicitly
+//		test(s1); //call it explicitly
 		
 		System.out.println(s1.getSname());
 	}
