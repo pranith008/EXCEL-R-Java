@@ -22,12 +22,11 @@ public class FinallyBlockDemo {
 		catch(InputMismatchException ex1)
 		{
 			System.out.println("Please enter valid Integer Values only");
-			System.exit(0);
 		}
 		catch(ArithmeticException ex2)
 		{
 			System.out.println("Please enter valid non zero denominator value");
-			System.exit(0);
+
 		}
 		
 		finally

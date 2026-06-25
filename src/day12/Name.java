@@ -10,7 +10,7 @@ public class Name {
 		try {
 			System.out.println("Enter your Name");
 			String name=sc.nextLine();
-			if(name.contains(" ")) {
+			if(name.contains(" ") ) {
 				throw new InvalidNameException("Invalid Name");
 			}
 			else {

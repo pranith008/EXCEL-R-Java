@@ -32,6 +32,7 @@ public class Bank {
 				e.printStackTrace();
 			}
 			System.out.println("Dad Deposited 8000 , Balance "+this.balance);
+			System.out.println("Trying to withdraw "+withdrawAmount);
 			this.balance-=withdrawAmount;
 			System.out.println("Withdrwal Successful of Rs "+withdrawAmount);
 			System.out.println("Account Balance "+ this.balance); 

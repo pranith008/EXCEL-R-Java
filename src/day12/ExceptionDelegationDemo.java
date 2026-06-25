@@ -19,7 +19,7 @@ public class ExceptionDelegationDemo {  //caller
 		}
 		catch(ArithmeticException ex1)              //exception handling			   
 		{
-			System.out.println(ex1.getMessage());  
+			System.out.println("Enter valid denominator value");  
 		}
 
 	}

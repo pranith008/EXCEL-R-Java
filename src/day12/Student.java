@@ -7,7 +7,7 @@ public class Student {
 	
 	public Student() {}		//constructor 1
 				//		18          null         78.5
-	public Student(int rno, String sname, double per) throws Exception		//constructor 2 -AllArgsConstructor
+	public Student(int rno, String sname, double per) throws Exception 	//constructor 2 -AllArgsConstructor
 	{
 		if(sname==null)
 			throw new Exception("Please enter valid name");

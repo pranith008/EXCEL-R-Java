@@ -27,6 +27,7 @@ public class List2DDemo {
 		bharat.add(rj);
 		bharat.add(gj);
 		
+		System.out.println(bharat);
 		//using mh display me the first city
 		
 		System.out.println(mh.get(0));
@@ -41,6 +42,10 @@ public class List2DDemo {
 		System.out.println("First city of each state");
 		for(int i=0;i<bharat.size();i++)					//i=0		,i=1,		i=2
 			System.out.println(bharat.get(i).get(0));
+		
+		for(ArrayList<String> city:bharat) {
+			System.out.println(city.get(0));
+		}
 		
 
 		ArrayList<String> mh1=new ArrayList(20);			//initial capacity
