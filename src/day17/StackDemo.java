@@ -15,6 +15,9 @@ public class StackDemo {
 		System.out.println(names);
 		System.out.println(names.push("David"));
 		System.out.println(names);
+		System.out.println(names.peek());
+		System.out.println(names.search("Alice"));
+		
 
 		System.out.println(names.size()); // 3
 	}

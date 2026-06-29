@@ -11,6 +11,7 @@ public class PartitionByDemo {
 	public static void main(String[] args) {
 		String sentance="one two three four five six seven eight nine ten";
 		String words[]=sentance.split(" "); //["one", "two", three, four, five, six, seven, eight, nine, ten]
+		System.out.println(Arrays.toString(words));
 		
 		Map<Boolean,List<String>> hashmap=new HashMap();
 		

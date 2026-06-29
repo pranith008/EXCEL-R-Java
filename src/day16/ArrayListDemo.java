@@ -31,6 +31,7 @@ public class ArrayListDemo {
 		ArrayList<ArrayList<String>> bharat=new ArrayList();
 		bharat.add(mh);  //consumes single index
 		bharat.add(rj);
+		bharat.add(gj);
 		
 		System.out.println(bharat);
 		System.out.println(bharat.size());

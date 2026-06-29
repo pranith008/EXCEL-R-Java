@@ -31,6 +31,12 @@ public class StreamDemo {
 		
 		System.out.println(maxMonthLength);
 		
+		months.stream()
+		.filter(month->month.length()==maxMonthLength)
+		.forEach(System.out::println);
+		
+		
+		
 		//display length of the average months
 		double maxMonthLength1=months.stream()	//[January","February","March","April","Ma...]
 				.mapToInt(month->month.length()) //[7,7,5,5...]

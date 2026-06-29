@@ -9,5 +9,9 @@
 	<classpathentry kind="lib" path="C:/Users/mamid/Downloads/jackson-databind-2.15.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/mamid/Downloads/jackson-core-2.15.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/mamid/Downloads/jackson-annotations-2.15.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mamid/Downloads/mysql-connector-j-8.0.33.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mamid/Downloads/slf4j-simple-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mamid/Downloads/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mamid/Downloads/HikariCP-5.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

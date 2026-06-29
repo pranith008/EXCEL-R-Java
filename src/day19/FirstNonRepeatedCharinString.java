@@ -25,7 +25,7 @@ public class FirstNonRepeatedCharinString {
 		
 		for(char ch:str.toCharArray())			//ch='i'
 		{
-			if(map.get(ch)>1)
+			if(map.get(ch)==1)
 				return ch;
 		}
 		

@@ -7,9 +7,9 @@ public class OptionalDemo {
 	public static void main(String[] args) {
 		//Optional was introduced in java 8 to reduce/eliminate NullPointerException
 		
-		Optional<String> sname1=getStudentName(3);
+		Optional<String> sname1=getStudentName(4);
 		
-		System.out.println(sname1.orElse(null));
+		System.out.println(sname1.orElse("Name not Found"));
 		if(sname1.isPresent())   //isPresent will return a boolean
 		{
 			System.out.println(sname1.get());  //100% sure data is there
@@ -59,7 +59,7 @@ public class OptionalDemo {
 	
 	public static String test()
 	{
-		return "Apple";
+		return "Name not found";
 	}
 
 }
